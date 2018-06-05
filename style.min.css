@@ -766,7 +766,7 @@ html[xmlns] .flexslider .slides{display:block}
 @media screen and (min-width:600px){#masthead>.row-2>.wrapper.cap nav.right-nav{-webkit-box-ordinal-group:4;-webkit-order:3;-ms-flex-order:3;order:3;padding-left:30px}
 }@media screen and (min-width:1200px){#masthead>.row-2>.wrapper.cap nav.right-nav{padding-left:60px}
 }#masthead>.row-2>.wrapper.cap nav.left-nav,#masthead>.row-2>.wrapper.cap nav.right-nav{display:none}
-@media screen and (min-width:600px){#masthead>.row-2>.wrapper.cap nav.left-nav,#masthead>.row-2>.wrapper.cap nav.right-nav{-webkit-box-flex:1 1 auto;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;display:block}
+@media screen and (min-width:600px){#masthead>.row-2>.wrapper.cap nav.left-nav,#masthead>.row-2>.wrapper.cap nav.right-nav{-webkit-box-flex:1 1 auto;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;display:block;max-width:45%}
 }#masthead>.row-2>.wrapper.cap nav.left-nav.active,#masthead>.row-2>.wrapper.cap nav.right-nav.active{display:block}
 #masthead>.row-2>.wrapper.cap nav.left-nav>div ul,#masthead>.row-2>.wrapper.cap nav.right-nav>div ul{margin:0;padding:0;text-align:center}
 @media screen and (min-width:600px){#masthead>.row-2>.wrapper.cap nav.left-nav>div ul,#masthead>.row-2>.wrapper.cap nav.right-nav>div ul{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;-webkit-justify-content:space-between;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-flex-direction:column;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}

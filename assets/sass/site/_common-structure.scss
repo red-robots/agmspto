@@ -221,6 +221,7 @@
 				@media screen and (min-width: $tabwidth){
 					@include flexbox-flex(1,1,auto);
 					display: block;
+					max-width: 45%;
 				}
 				&.active {
 					display: block;
