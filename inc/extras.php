@@ -27,3 +27,24 @@ function acstarter_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'acstarter_body_classes' );
+
+
+function get_social_icons() {
+	$social = array();
+    $social_types = array(
+        'facebook'  => 'fa fa-facebook',
+        'twitter'   => 'fa fa-twitter',
+        'linkedin'  => 'fa fa-linkedin',
+        'instagram' => 'fa fa-instagram',
+        'youtube'   => 'fa fa-youtube-play'
+    );
+
+    foreach($social_types as $k=>$icon) {
+    	$field = $k . '_link';
+    	$link = get_field($field,"option");
+    	if($link) {
+    		$social[] = array('icon'=>$icon,'type'=>$k,'link'=>$link);
+    	}
+    }
+    return $social;
+}

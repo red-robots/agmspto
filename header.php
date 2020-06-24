@@ -27,12 +27,15 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="row-1">
 			<div class="wrapper cap clear-bottom">
-				<?php $facebook_link = get_field("facebook_link","option");
-				if($facebook_link):?>
+				<?php 
+				$social = get_social_icons();
+				if($social) { ?>
 					<div class="social">
-						<a href="<?php echo $facebook_link;?>" target="_blank"><i class="fa fa-facebook"></i></a>
+						<?php foreach ($social as $k=>$v) { ?>
+							<a href="<?php echo $v['link'];?>" target="_blank" class="<?php echo $v['type'];?>"><i class="<?php echo $v['icon'];?>"></i><span style="position:absolute;z-index:-99;visibility:hidden;"></span></a>
+						<?php } ?>
 					</div><!--.social-->
-				<?php endif;?>
+				<?php } ?>
 			</div><!--.wrapper-->
 		</div><!--.row-1-->
 		<div class="row-2">
