@@ -74,7 +74,7 @@
                     <?php wp_reset_postdata();
                 endif;?>
             </aside><!--.col.col-1-->
-            <aside class="col col-2">
+            <!-- <aside class="col col-2">
                 <?php $upcoming_events_title = get_field("upcoming_events_title","option");
                 if($upcoming_events_title):?>
                     <header>
@@ -86,17 +86,17 @@
                     if($calendar_id):?>
                         <div class="events">
                             <?php echo do_shortcode('[calendar id="'.$calendar_id.'"]'); ?>
-                        </div><!--.events-->
+                        </div>
                     <?php endif;
                     $calendar_link = get_field("calendar_link","option");
                     $view_calendar_text = get_field("view_calendar_text","option");
                     if($view_calendar_text&&$calendar_link):?>
                         <div class="view-more">
                             <a href="<?php echo $calendar_link;?>"><?php echo $view_calendar_text;?></a>
-                        </div><!--.view-more-->
+                        </div>
                     <?php endif;?>
-                </div><!--.wrapper-->
-            </aside><!--.col.col-2-->
+                </div>
+            </aside> -->
             <aside class="col col-3">
                 <?php get_template_part("template-parts/quicklinks");?>
             </aside><!--.col.col-3-->

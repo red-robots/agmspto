@@ -64,7 +64,7 @@
 			}
 			>.col-1 {
 				@media screen and (min-width: $deskwidth){
-					width: 33%;
+					width: 63%;
 					float: left;
 				}
 				.news {
@@ -163,7 +163,7 @@
 				@media screen and (min-width: $deskwidth){
 					width: 25%;
 					margin: 0;
-					float: left;
+					float: right;
 				}
 			}
 		}
@@ -277,11 +277,11 @@
 				}
 			}
 		}
-		>.wrapper.archives-recent {
+		>.wrapper.archives-recent .archives {
 			margin: 40px 0 0 0;
 			@media screen and (min-width: $deskwidth){
 				margin: 0;
-				float: left;
+				float: right;
 				width: 25%;
 			}
 		}
