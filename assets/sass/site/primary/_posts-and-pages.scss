@@ -64,7 +64,8 @@
 			}
 			>.col-1 {
 				@media screen and (min-width: $deskwidth){
-					width: 63%;
+					// width: 63%;
+					width: 33%;
 					float: left;
 				}
 				.news {

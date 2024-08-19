@@ -441,7 +441,7 @@ embed,iframe,object{max-width:100%}
 #masthead>.row-2>.wrapper.cap nav.left-nav>div ul li,#masthead>.row-2>.wrapper.cap nav.right-nav>div ul li{margin:0 10px}
 #masthead>.row-2>.wrapper.cap nav.left-nav>div ul li a,#masthead>.row-2>.wrapper.cap nav.right-nav>div ul li a{font-size:18px}
 .template-index>.row-3>.wrapper.cap{padding:80px 0 120px 0}
-.template-index>.row-3>.wrapper.cap>.col-1{width:63%;float:left}
+.template-index>.row-3>.wrapper.cap>.col-1{width:33%;float:left}
 .template-index>.row-3>.wrapper.cap>.col-1 .news .post{padding:20px 30px 30px 30px}
 .template-index>.row-3>.wrapper.cap>.col-2{margin:0 5% 0 3%;width:33%;float:left}
 .template-index>.row-3>.wrapper.cap>.col-3{width:25%;margin:0;float:right}

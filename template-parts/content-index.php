@@ -74,7 +74,7 @@
                     <?php wp_reset_postdata();
                 endif;?>
             </aside><!--.col.col-1-->
-            <!-- <aside class="col col-2">
+            <aside class="col col-2">
                 <?php $upcoming_events_title = get_field("upcoming_events_title","option");
                 if($upcoming_events_title):?>
                     <header>
@@ -96,7 +96,7 @@
                         </div>
                     <?php endif;?>
                 </div>
-            </aside> -->
+            </aside> 
             <aside class="col col-3">
                 <?php get_template_part("template-parts/quicklinks");?>
             </aside><!--.col.col-3-->
